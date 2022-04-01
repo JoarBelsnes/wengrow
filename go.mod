@@ -1,5 +1,4 @@
-module github.com/JoarBelsnes/wengrow/aen
-module github.com/JoarBelsnes/wengrow/bubble
+module github.com/JoarBelsnes/wengrow
 
 
 go 1.18

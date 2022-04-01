@@ -1,7 +1,7 @@
 package aen
 
-func AverageOfEvenNumber(array []int) int {
-	var sum int
+func AverageOfEvenNumbers(array []int) int {
+	var sum int = 0
 	var countOfEvenNumbers int = 0
 	for _,number := range array {
 		if number % 2 == 0 {

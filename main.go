@@ -1,12 +1,12 @@
 package main
 
 
-import ("fmt"
- "github.com/joarbelsnes/wengrow/aen"
+import (
+	"fmt"
+ "github.com/JoarBelsnes/wengrow/aen"
 )
 
 func main() {
 
-	print(aen.AverageOfEvenNumbers([]int {1,2,3,4,5,6,7,8,9}))
-	fmt.Print("hei")
+	fmt.Println(aen.AverageOfEvenNumber([]int{1,2,3,4,5,6,7,8,9}))
 }
